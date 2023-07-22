@@ -1,0 +1,42 @@
+.web-menu-wrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: #00000; */
+  /* switch between this two */
+  position: absolute;
+  left: -1000rem;
+  width: 100vw;
+  opacity: 0;
+  transition: all ease-in-out 0.4s;
+}
+
+.active-web-menu {
+  opacity: 1;
+  left: 0rem;
+}
+
+.header {
+  background-image: url("../../public/icons/hero-bg.png");
+  background-size: cover;
+  color: #ffffff;
+  height: 900px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    background-position: center;
+    height: 800px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    background-position: center;
+    height: 500px;
+  }
+}
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+.header::-webkit-scrollbar {
+  width: 0 !important;
+}

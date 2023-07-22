@@ -1,0 +1,47 @@
+.works_wrapper {
+  border-top: 1px solid #ff931e;
+}
+
+.our_text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+}
+
+.work_text {
+  color: #ff931e;
+}
+
+/* tab style */
+.active_tab_component {
+  display: block;
+}
+
+.tab_component {
+  display: none;
+}
+
+.tab_btn {
+  cursor: pointer;
+  font-family: "Clash Grotesk";
+  font-weight: 600;
+}
+
+.tab_btn.active {
+  color: #ff931e;
+}
+
+@media (max-width: 600px) {
+  .tab_btn {
+    font-weight: 500;
+  }
+}
+
+.pricing_tab_btn_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  flex-wrap: wrap;
+}
+
+/* tab style */

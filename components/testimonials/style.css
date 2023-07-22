@@ -1,0 +1,17 @@
+.slick-slide > div {
+  margin: 0 20px;
+}
+
+.text_bg {
+  background-image: url("../../public/test_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.test_header {
+  -webkit-text-stroke-width: 1px;
+  color: #ff931e;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  font-family: "Clash Grotesk", sans-serif;
+}

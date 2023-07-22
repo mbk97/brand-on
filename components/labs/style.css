@@ -1,0 +1,12 @@
+.brand-on_bg {
+  background-image: url("../../public/Brandon_labs.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+}
+
+@media (max-width: 600px) {
+  .brand-on_bg {
+    width: 100%;
+  }
+}

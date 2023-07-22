@@ -1,0 +1,5 @@
+.pricing_title_wrapper {
+  background-image: url("../../public/pricing_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

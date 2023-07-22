@@ -1,0 +1,20 @@
+.arrow_next {
+  position: absolute;
+  right: -35px;
+  top: 230px;
+  z-index: 1;
+}
+
+.arrow_prev {
+  position: absolute;
+  left: -40px;
+  top: 230px;
+  z-index: 1;
+}
+.slick-dots {
+  margin-top: 4rem;
+}
+
+.slick-dots li {
+  color: red !important;
+}
