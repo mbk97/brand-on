@@ -12,7 +12,10 @@ const Pricing = () => {
       id="pricing"
     >
       <div className="pricing_title_wrapper flex justify-between flex-wrap gap-5">
-        <h1 className="text-[#000000] font-semibold  text-[40px] md:text-[40px]">
+        <h1
+          className="text-[#000000] font-semibold  text-[40px] md:text-[40px]"
+          data-aos="flip-right"
+        >
           PRICING
         </h1>
         <p className="font-medium text-[#000000] md:text-right text-center w-[100%] md:w-[500px]">

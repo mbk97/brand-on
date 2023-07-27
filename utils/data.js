@@ -33,21 +33,21 @@ export const links = [
     text: "PORTFOLIO",
     path: "portfolio",
   },
-  {
-    id: 5,
-    text: "PRICING",
-    path: "pricing",
-  },
+  // {
+  //   id: 5,
+  //   text: "PRICING",
+  //   path: "pricing",
+  // },
   {
     id: 6,
     text: "TESTIMONIALS",
     path: "testimonials",
   },
-  {
-    id: 16,
-    text: "BRANDON LABS",
-    path: "labs",
-  },
+  // {
+  //   id: 16,
+  //   text: "BRANDON LABS",
+  //   path: "labs",
+  // },
 ];
 
 export const testimonialData = [

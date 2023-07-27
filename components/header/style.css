@@ -1,7 +1,5 @@
 .web-menu-wrapper {
-  background-color: rgba(0, 0, 0, 0.8);
-  /* background-color: #00000; */
-  /* switch between this two */
+  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   left: -1000rem;
   width: 100vw;

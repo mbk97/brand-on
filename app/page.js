@@ -8,9 +8,16 @@ import Services from "@/components/ourServices/Services";
 import Pricing from "@/components/pricing/Pricing";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Works from "@/components/works/Works";
-import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="bg-[#181818]">
       <Header />
@@ -19,6 +26,7 @@ export default function Home() {
       <Services />
       <BrandOnLabs />
       <Testimonials />
+      <div className="h-[90px] bg-white" /> {/*remove this later*/}
       <Pricing />
       <Blog />
       <Footer />

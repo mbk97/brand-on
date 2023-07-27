@@ -13,7 +13,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     // change footer height back to 600px
-    <div className="text-[white] h-[auto] md:px-12 md:py-20 px-5 pt-14 ">
+    <div className="text-[white]  h-[auto] md:px-12 md:py-20 px-5 pt-14 ">
       <div className="mb-10">
         <h1 className=" text-[#FF931E] big-text">
           LET&rsquo;S MAKE YOUR <br /> BRAND A{" "}
@@ -39,15 +39,21 @@ const Footer = () => {
           </p>
 
           <div className="mt-4">
-            <div className="flex gap-2 items-center mb-3">
-              <AiOutlineMail />
-              <p className="footer-sub-text">hello@growwithbrandon@gmail.com</p>
-            </div>
+            <a href="mailto:hello@growwithbrandon@gmail.com">
+              <div className="flex gap-2 items-center mb-3">
+                <AiOutlineMail />
+                <p className="footer-sub-text">
+                  hello@growwithbrandon@gmail.com
+                </p>
+              </div>
+            </a>
 
-            <div className="flex gap-2 items-center">
-              <BsTelephoneInbound />
-              <p className="footer-sub-text">+234 810 012 3456</p>
-            </div>
+            <a href="tel:+234 810 012 3456">
+              <div className="flex gap-2 items-center">
+                <BsTelephoneInbound />
+                <p className="footer-sub-text">+234 810 012 3456</p>
+              </div>
+            </a>
           </div>
         </div>
         {/* Contact wrapper */}
@@ -60,8 +66,13 @@ const Footer = () => {
           <div className="mt-4">
             {links.map((item) => {
               return (
-                <p key={item.id} className="text-[#ffffff] footer-sub-text ">
-                  {item.text}
+                <p
+                  key={item.id}
+                  className="text-[#ffffff] footer-sub-text cursor-pointer"
+                >
+                  <Link to={item.path} smooth={true}>
+                    {item.text}
+                  </Link>
                 </p>
               );
             })}
@@ -76,16 +87,22 @@ const Footer = () => {
           <div className="mt-4">
             {socialMediaLinks.map((item) => {
               return (
-                <p key={item.id} className="text-[#ffffff] footer-sub-text ">
+                <a
+                  href={item.link}
+                  key={item.id}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block"
+                >
                   {item.text}
-                </p>
+                </a>
               );
             })}
           </div>
         </div>
         {/* social media wrapper */}
       </div>
-      <div className="flex justify-center mt-16 items-center md:hidden">
+      <div className="flex justify-center mt-16 mb-8 items-center md:hidden">
         <Image src={logo} width={180} height={32} alt="logo" />
       </div>
     </div>

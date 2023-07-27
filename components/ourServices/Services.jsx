@@ -7,6 +7,7 @@ import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import "./style.css";
 import { NextArrow, PrevArrow } from "../common/carousel/arrow";
+import Reveal from "../animation/Reveal";
 
 const Services = () => {
   const settings = {
@@ -49,9 +50,11 @@ const Services = () => {
     <div className="bg-[#ffffff] h-auto px-12 pt-10 pb-20 " id="services">
       <div className="flex justify-between flex-wrap gap-6">
         <div className="mb-[20px] md:mb-[40px] service_bg p-3 ">
-          <h1 className="text-[#000000] font-semibold  text-[20px] md:text-[40px]">
-            -OUR SERVICES
-          </h1>
+          <div data-aos="zoom-out-up">
+            <h1 className="text-[#000000] font-semibold  text-[20px] md:text-[40px]">
+              -OUR SERVICES
+            </h1>
+          </div>
         </div>
         <p className="text-[#000000] w-[400px] text-center mb-10 md:text-right">
           We strive to make your business goals a reality with with high
@@ -68,11 +71,13 @@ const Services = () => {
               >
                 <Image src={item.image} alt={item.title} className="card_img" />
                 <div className="text-center p-4">
-                  <p className="title_text mb-4 text-[#ff931e] font-semibold">
+                  <p className="title_text mb-5 text-[14px] md:text-[16px] text-[#ff931e] font-semibold">
                     {item.title}
                   </p>
-                  <p className="desc_text font-medium">{item.description}</p>
-                  <div className="mt-7 border-[#6B6B6B] border-t-[1px]">
+                  <p className="desc_text font-medium text-[14px] md:text-[16px]">
+                    {item.description}
+                  </p>
+                  <div className="mt-5 border-[#6B6B6B] border-t-[1px]">
                     <p className="pt-2 font-medium flex items-center justify-center gap-3">
                       Learn more <BsArrowRight />
                     </p>

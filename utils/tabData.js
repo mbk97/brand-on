@@ -12,21 +12,25 @@ export const worksTabData = [
     id: 1,
     title: "ALL",
     Component: All,
+    animate: "",
   },
   {
     id: 2,
     title: "BRAND IDENTITY",
     Component: Brand,
+    animate: "",
   },
   {
     id: 3,
     title: "WEBSITE DEVELOPMENT",
     Component: Website,
+    animate: "",
   },
   {
     id: 4,
     title: "SOCIAL MEDIA MANAGEMENT",
     Component: Social,
+    animate: "",
   },
 ];
 

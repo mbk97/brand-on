@@ -48,7 +48,10 @@ const Testimonials = () => {
     <div className="h-auto bg-[#ffffff] px-12 pt-20" id="testimonials">
       <div className="border border-t border-[#353535] mb-10"></div>
       <div className="text_bg ">
-        <h1 className="text-[#000000] font-semibold  text-[20px] md:text-[40px]">
+        <h1
+          className="text-[#000000] font-semibold  text-[20px] md:text-[40px]"
+          data-aos="flip-left"
+        >
           -WHAT OUR CUSTOMER SAID
         </h1>
       </div>

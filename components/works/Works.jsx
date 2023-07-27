@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { worksTabData } from "@/utils/tabData";
 import "./style.css";
+import Reveal from "../animation/Reveal";
 
 const Works = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -9,7 +10,8 @@ const Works = () => {
   return (
     <div className="works_wrapper mx-5 lg:mx-20 mb-20" id="portfolio">
       <div className="mt-7 flex justify-center gap-5 flex-wrap lg:justify-between">
-        <div className="flex gap-2">
+        {/* <Reveal> */}
+        <div className="flex gap-2" data-aos="flip-left">
           <span className="our_text md:text-6xl text-[42px] font-semibold">
             OUR
           </span>{" "}
@@ -17,6 +19,7 @@ const Works = () => {
             WORKS
           </h1>
         </div>
+        {/* </Reveal> */}
         {/* tab btns */}
         <div
           className={`flex gap-3 items-center justify-center flex-wrap  ${"works_tab_btn_wrapper"}`}

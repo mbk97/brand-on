@@ -25,10 +25,7 @@ const OverLayNavbar = ({ handleClick }) => {
           <Image src={smallLogoText} width={40} height={40} alt="logo" />
           <Image src={logo} width={180} height={32} alt="logo" />
         </div>
-        <div className="w-[120px] flex items-center justify-between">
-          <p className="">Hello</p>
-          <BiToggleLeft className="text-[#ffffff]" size={40} />
-        </div>
+        <div className="w-[120px] flex items-center justify-between"></div>
       </header>
       <main className="px-12 h-[450px] w-[90vw] flex justify-between items-center mt-10">
         <div className="flex gap-[13rem]">
@@ -42,7 +39,7 @@ const OverLayNavbar = ({ handleClick }) => {
               return (
                 <p
                   key={item.id}
-                  className={`my-3 link-text  text-4xl font-medium text-[${workColorText(
+                  className={`my-3 link-text  text-4xl font-medium cursor-pointer text-[${workColorText(
                     item.text,
                   )}]`}
                 >
@@ -62,9 +59,15 @@ const OverLayNavbar = ({ handleClick }) => {
           <div className="mt-4">
             {socialMediaLinks.map((item) => {
               return (
-                <p key={item.id} className="text-[#ffffff] footer-sub-text ">
+                <a
+                  href={item.link}
+                  key={item.id}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block"
+                >
                   {item.text}
-                </p>
+                </a>
               );
             })}
           </div>
