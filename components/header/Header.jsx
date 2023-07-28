@@ -31,7 +31,7 @@ const Header = () => {
       >
         <OverLayNavbar handleClick={handleClick} />
       </div>
-      <div>
+      <div className="z-10">
         <Navbar
           showMobileNav={showMobileNav}
           handleShowMobileNav={handleShowMobileNav}

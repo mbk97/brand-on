@@ -19,6 +19,11 @@ export const links = [
     path: "home",
   },
   {
+    id: 10,
+    text: "ABOUT US",
+    path: "about",
+  },
+  {
     id: 2,
     text: "SERVICES",
     path: "services",

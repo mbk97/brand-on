@@ -1,12 +1,12 @@
-.blog_bg {
-  background-image: url("../../public/Blog_bg.png");
+.about_bg {
+  background-image: url("../../public/about_bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 600px;
 }
 
 @media (max-width: 600px) {
-  .blog_bg {
+  .about_bg {
     width: 100%;
   }
 }

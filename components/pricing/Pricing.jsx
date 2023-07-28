@@ -16,7 +16,7 @@ const Pricing = () => {
           className="text-[#000000] font-semibold  text-[40px] md:text-[40px]"
           data-aos="flip-right"
         >
-          PRICING
+          -PRICING
         </h1>
         <p className="font-medium text-[#000000] md:text-right text-center w-[100%] md:w-[500px]">
           Lets’s make the wise decision for your Business with our Affordable

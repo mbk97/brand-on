@@ -12,16 +12,27 @@ const Blog = () => {
       className="bg-[#ffffff] text-[#000000] h-[auto] px-6 md:px-12 py-12"
       id="blog"
     >
-      <p className="font-semibold">- Blogs</p>
-      <div className="flex justify-between flex-wrap gap-5">
-        <h1 className="font-semibold md:text-[32px] text-[20px] md:w-[647px] w-full">
-          Browse our articles on marketing and growth
-        </h1>
+      <div className="flex justify-between ">
+        <div className="mb-[20px] md:mb-[40px] blog_bg p-3 ">
+          <div data-aos="zoom-out-up">
+            <h1 className="text-[#000000] font-semibold  text-[20px] md:text-[40px]">
+              -Blogs
+            </h1>
+          </div>
+        </div>
+        <div>
+          <p className="md:text-[20px] font-medium text-right text-[16px] mt-4 md:mt-5 md:w-[647px] w-full">
+            Browse our articles on marketing and growth
+          </p>
+        </div>
+      </div>
+
+      {/* <div className="flex justify-between flex-wrap gap-5">
         <p className="md:w-[440px] w-[100%]">
           Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco
           cillum dolor. Voluptate exercitation incididunt aliquip deserunt.
         </p>
-      </div>
+      </div> */}
       <div className="flex g-10 flex-wrap justify-between pt-10">
         {/* big blog card */}
         <div>

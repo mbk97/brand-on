@@ -5,6 +5,11 @@ export const menuItems = [
     path: "home",
   },
   {
+    id: 10,
+    text: "ABOUT US",
+    path: "abou",
+  },
+  {
     id: 2,
     text: "SERVICES",
     path: "services",
