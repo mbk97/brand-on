@@ -27,7 +27,7 @@ const About = () => {
             To create Prosperity for Brands through Branding & Marketing and
             move businesses to a unicorn status within a decade.
           </p>
-          <div className="w-full md:w-[430px] mt-7" data-aos="flip-left">
+          <div className="w-[100%] md:w-[430px] mt-7" data-aos="flip-left">
             <Image src={aboutImgOne} />
           </div>
         </div>
@@ -35,7 +35,7 @@ const About = () => {
 
         {/* card two */}
         <div>
-          <div className="w-full md:w-[430px] mt-4" data-aos="flip-right">
+          <div className="w-[100%] md:w-[430px] mt-4" data-aos="flip-right">
             <Image src={aboutImgTwo} />
           </div>
           <div className="w-[370px] mt-7">
