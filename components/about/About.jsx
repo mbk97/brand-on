@@ -43,12 +43,12 @@ const About = () => {
               OUR MISSION
             </h1>
           </div>
-          <p className="w-full md:w-[450px] text-[#ff931e] text-[16px] font-medium mt-5 md-[24px] ">
+          <div className="w-full md:w-[450px] text-[#ff931e] text-[16px] font-medium mt-5 md-[24px] ">
             <p className="font-bold span_class inline">BrandOn</p> is on the
             adventure of breaking templates and “by the books” type of branding
             by using research to create custom and data-based branding solutions
             specific to individual brands.
-          </p>
+          </div>
         </div>
         {/* card two */}
       </section>

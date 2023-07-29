@@ -35,12 +35,15 @@ const Blog = () => {
       </div> */}
       <div className="flex g-10 flex-wrap justify-between pt-10">
         {/* big blog card */}
-        <div>
+        <div data-aos="flip-left">
           <div className="md:w-[750px] w-[100%]">
             <Image
               src={cardData.image}
               alt={cardData.title}
-              className="h-[300px] md:h-[330px]  object-center"
+              style={{
+                objectPosition: "center",
+              }}
+              className="md:w-[900px] md:h-[400px] w:full h-[400px]"
             />
             <div className="flex justify-between mt-2">
               <p className="text-[#8C8C8C] text-[14px]">{cardData.date}</p>
@@ -48,6 +51,13 @@ const Blog = () => {
             </div>
             <p className="font-semibold text-[24px]">{cardData.title}</p>
             <p className="text-[#6B6B6B]">{cardData.description}</p>
+            <a
+              href={cardData.link}
+              className="underline text-[#ff931e]"
+              target="_blank"
+            >
+              Read More
+            </a>
           </div>
         </div>
         {/* big blog card */}
@@ -60,21 +70,27 @@ const Blog = () => {
                 key={item.id}
                 className="w-[100%] lg:w-[500px] md:flex mb-7 md:gap-3 md:mb-5"
               >
-                <div>
-                  <Image
-                    alt={item.title}
-                    src={item.image}
-                    className="w-[100%] md:w-[285px]"
-                  />
-                </div>
-                <div>
+                <Image
+                  alt={item.title}
+                  src={item.image}
+                  className="w-[100%] md:w-[300px] md:h-[180px] h-[400px] object-cover"
+                  data-aos="flip-right"
+                />
+                <div className="md:ml-[30px] ml-0">
                   <p className="text-[18px] font-semibold w-[100%]">
                     {item.title}
                   </p>
-                  <p className="text-[#6B6B6B] w-[100%] text-[16px]">
+                  {/* <p className="text-[#6B6B6B] w-[100%] text-[16px]">
                     {item.description}
-                  </p>
+                  </p> */}
                   <p className="text-[#6B6B6B] text-[16px]">{item.date}</p>
+                  <a
+                    href={cardData.link}
+                    className="underline text-[#ff931e]"
+                    target="_blank"
+                  >
+                    Read More
+                  </a>
                 </div>
               </div>
             );

@@ -10,3 +10,9 @@
     width: 100%;
   }
 }
+
+.blog_img {
+  height: 500px;
+  width: 100%;
+  object-fit: scale-down;
+}

@@ -10,7 +10,7 @@ import website from "../public/website.png";
 import blogOneImg from "../public/blogImages/blog-1.jpg";
 import blogTwoImg from "../public/blogImages/blog-2.jpg";
 import blogThreeImg from "../public/blogImages/blog-3.jpg";
-import blogFourImg from "../public/blogImages/blog-1.jpg";
+import blogFourImg from "../public/blogImages/blog-4.jpg";
 
 export const links = [
   {
@@ -176,38 +176,40 @@ export const servicesData = [
 export const blogData = [
   {
     id: 1,
-    title: "Hard Work Always Brings You Success",
+    title:
+      "Using research and data to design and implement branding and marketing solutions",
     description:
-      "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.s",
-    date: "May 27, 2023",
+      "At Brandon, Market research and data analysis is at the core of our operations and business. We have discovered you can never go wrong...",
+    date: "May 30, 2023",
     tag: "MARKETING",
+    link: "https://m.facebook.com/story.php?story_fbid=pfbid0iHNc5KXD1i6woqQtEgwpFjPW59Bwx4dDCvpeX5Bz9SsCmDQpKDeVvWckAGihXbLhl&id=100083176209922&mibextid=Nif5oz",
     image: blogOneImg,
   },
   {
     id: 2,
-    title: "SEO Thought Leaders to Follow (and See) At C3",
+    title:
+      "Unlocking Marketing Success: Balancing Automation with People and Strategy",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
+      "Automation is an added advantage to make marketing easier but having the right people and strategy at the heart of your marketing... ",
     date: "April 27, 2023 ",
-    // tag: "",
     image: blogTwoImg,
+    link: "https://twitter.com/_BrandOnteam/status/1683393653719302144?t=AivI5aUWuZm8PmR5QFAr1A&s=19",
   },
   {
     id: 3,
-    title: "C3 2022: Top Takeaways and Insights",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
+    title: "PUT PEOPLE NOT AUTOMATION AT THE CORE OF YOUR MARKETING",
+    description: " ",
     date: "May 27, 2023",
-    // tag: "",
-    image: blogThreeImg,
-  },
-  {
-    id: 4,
-    title: "Creating SMART SEO Goals ",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
-    date: "May 27, 2023",
-    // tag: "",
     image: blogFourImg,
+    link: "https://www.linkedin.com/posts/growwithbrandon_marketing-branding-brandon-activity-7089160485236875264-3SRT/?utm_source=share&utm_medium=member_android",
   },
+  // {
+  //   id: 4,
+  //   title: "Creating SMART SEO Goals ",
+  //   description:
+  //     "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
+  //   date: "May 27, 2023",
+  //   // tag: "",
+  //   image: blogOneImg,
+  // },
 ];

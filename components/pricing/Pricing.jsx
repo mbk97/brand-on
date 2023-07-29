@@ -5,7 +5,6 @@ import "./style.css";
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState(1);
   const activeItem = pricingTabData?.find(({ id }) => id === activeTab);
-  console.log(activeItem);
   return (
     <div
       className="h-[auto] py-20 bg-[#ffffff] text-[#000000] px-12"

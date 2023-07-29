@@ -11,7 +11,10 @@ import CustomButton from "@/components/common/button/CustomButton";
 const PricingBrand = () => {
   return (
     <div className="flex gap-5 flex-wrap items-center justify-center">
-      <div className="card_one w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]">
+      <div
+        className="card_one w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]"
+        data-aos="flip-left"
+      >
         <p className="text-center  text-[#FF931E] font-semibold text-[60px]">
           {brandIdentityCardOne.price}
         </p>
@@ -33,7 +36,6 @@ const PricingBrand = () => {
           <CustomButton text={"Learn more"} primary={false} />
         </div>
       </div>
-
       <div
         className="bg-[#FF931E] p-[1px]"
         style={{
@@ -42,6 +44,7 @@ const PricingBrand = () => {
           borderBottomLeftRadius: "24px",
           borderBottomRightRadius: "24px",
         }}
+        data-aos="flip-up"
       >
         <p className="text-center my-4 text-[#ffffff] font-semibold text-[24px]">
           Recomended
@@ -69,8 +72,10 @@ const PricingBrand = () => {
           </div>
         </div>
       </div>
-
-      <div className="card_three w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]">
+      <div
+        className="card_three w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]"
+        data-aos="flip-up"
+      >
         <p className="text-center  text-[#FF931E] font-semibold text-[60px]">
           {brandIdentityCardThree.price}
         </p>
