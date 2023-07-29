@@ -17,7 +17,7 @@ const About = () => {
 
       <section className="flex gap-6 justify-center items-center flex-wrap">
         {/* card one */}
-        <div className="flex flex-col-reverse md:flex-col">
+        <div className="flex flex-col-reverse md:flex-col w-[98%] md:w-[100%] ">
           <div className=" w-full md:w-[300px]">
             <h1 className="title_text font-semibold text-xl underline md:text-5xl ">
               OUR VISION
@@ -34,8 +34,11 @@ const About = () => {
         {/* card one */}
 
         {/* card two */}
-        <div>
-          <div className="w-[100%] md:w-[430px] mt-4" data-aos="flip-right">
+        <div className="md-[100%] w-[98%]">
+          <div
+            className="w-[100%] md:w-[430px] mt-4 object-contain"
+            data-aos="flip-right"
+          >
             <Image src={aboutImgTwo} />
           </div>
           <div className="w-[370px] mt-7">
