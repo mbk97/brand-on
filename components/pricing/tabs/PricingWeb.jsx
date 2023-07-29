@@ -12,7 +12,7 @@ const PricingWeb = () => {
   return (
     <div className="flex gap-5 flex-wrap items-center justify-center">
       <div
-        className="card_one w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]"
+        className="card_one w-full md:w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]"
         data-aos="zoom-in-right"
       >
         <p className="text-center  text-[#FF931E] font-semibold text-[60px]">
@@ -49,7 +49,7 @@ const PricingWeb = () => {
         <p className="text-center my-4 text-[#ffffff] font-semibold text-[24px]">
           Recomended
         </p>
-        <div className="card_two w-[350px] border bg-[#ffffff] border-[#EEEEEE] rounded-[24px] p-3 h-[auto]">
+        <div className="card_two w-full md:w-[350px] border bg-[#ffffff] border-[#EEEEEE] rounded-[24px] p-3 h-[auto]">
           <p className="text-center  text-[#FF931E] font-semibold text-[60px]">
             {websiteCardTwo.price}
           </p>
@@ -73,7 +73,7 @@ const PricingWeb = () => {
         </div>
       </div>
       <div
-        className="card_three w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]"
+        className="card_three w-full md:w-[350px] border border-[#EEEEEE] rounded-[24px] p-3 h-[auto]"
         data-aos="zoom-in-left"
       >
         <p className="text-center  text-[#FF931E] font-semibold text-[60px]">

@@ -16,3 +16,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .service_card {
+    margin-bottom: 40px;
+  }
+}

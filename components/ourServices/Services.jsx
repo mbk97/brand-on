@@ -7,7 +7,6 @@ import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import "./style.css";
 import { NextArrow, PrevArrow } from "../common/carousel/arrow";
-import Reveal from "../animation/Reveal";
 
 const Services = () => {
   const settings = {
@@ -67,14 +66,14 @@ const Services = () => {
             return (
               <div
                 key={item.id}
-                className="w-[18.75rem] h-[28.125rem] bg-[#272727]"
+                className="w-[18.75rem] h-[28.125rem] bg-[#272727] service_card"
               >
                 <Image src={item.image} alt={item.title} className="card_img" />
-                <div className="text-center p-4">
-                  <p className="title_text mb-5 text-[14px] md:text-[16px] text-[#ff931e] font-semibold">
+                <div className="text-center p-2 md:p-4">
+                  <p className="title_text mb-2 text-[14px] md:text-[16px] text-[#ff931e] md:font-semibold ">
                     {item.title}
                   </p>
-                  <p className="desc_text font-medium text-[14px] md:text-[16px]">
+                  <p className="desc_text md:font-medium text-[12px] md:text-[16px] h-[70px]">
                     {item.description}
                   </p>
                   <div className="mt-5 border-[#6B6B6B] border-t-[1px]">

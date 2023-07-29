@@ -7,7 +7,7 @@ const Pricing = () => {
   const activeItem = pricingTabData?.find(({ id }) => id === activeTab);
   return (
     <div
-      className="h-[auto] py-20 bg-[#ffffff] text-[#000000] px-12"
+      className="h-[auto] py-20 bg-[#ffffff] text-[#000000] p-4 md:px-12"
       id="pricing"
     >
       <div className="pricing_title_wrapper flex justify-between flex-wrap gap-5">
@@ -42,7 +42,7 @@ const Pricing = () => {
         </div>
         {/* tab btns */}
 
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10 p-6">
           <div
             className={
               activeItem?.id === activeTab

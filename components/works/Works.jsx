@@ -22,7 +22,7 @@ const Works = () => {
         {/* </Reveal> */}
         {/* tab btns */}
         <div
-          className={`flex gap-3 items-center justify-center flex-wrap  ${"works_tab_btn_wrapper"}`}
+          className={`md:flex block text-center md:gap-3 items-center justify-center flex-wrap  ${"works_tab_btn_wrapper"}`}
         >
           {worksTabData?.map(({ id, title }) => {
             return (
