@@ -1,9 +1,6 @@
 import React from "react";
 import "./style.css";
-import ReactPlayer from "react-player";
-// import vid from "../../public/brand.mp4";
-
-// Render a YouTube video player
+import vid from "../../public/brandon.mp4";
 
 const BrandOnLabs = () => {
   return (
@@ -13,7 +10,7 @@ const BrandOnLabs = () => {
     >
       <div className="flex justify-between flex-wrap gap-3 md:gap-6">
         <div className="mb-[10px] md:mb-[40px] brand-on_bg p-3 ">
-          <h1 className="text-[#ffffff]  font-semibold  text-[20px] md:text-[40px]">
+          <h1 className="text-[#ffffff]  font-semibold   text-[20px] md:text-[40px]">
             -BRANDON LABS
           </h1>
         </div>
@@ -24,18 +21,11 @@ const BrandOnLabs = () => {
       </div>
       <div className="flex items-center justify-center">
         <video
-          width="750"
-          height="500"
           controls
-          poster="../../public/robots.png"
+          className="md:w-[500px] w-full h-[350px] mt-7 bg-[#514D42]"
         >
-          <source
-            type="video/mp4"
-            src="https://www.youtube.com/watch?v=Vs3XsJznRyA"
-          />
+          <source type="video/mp4" src={vid} poster="../../public/robots.png" />
         </video>
-
-        {/* <ReactPlayer src="" /> */}
       </div>
     </div>
   );

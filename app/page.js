@@ -26,7 +26,7 @@ export default function Home() {
       <Offer />
       <Works />
       <Services />
-      {/* <BrandOnLabs /> */}
+      <BrandOnLabs />
       <Testimonials />
       <div className="h-[90px] bg-white" /> {/*remove this later*/}
       <Pricing />

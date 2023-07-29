@@ -22,3 +22,13 @@
     margin-bottom: 40px;
   }
 }
+
+.desc_text {
+  height: 70px;
+}
+
+@media (max-width: 400px) {
+  .desc_text {
+    height: 60px;
+  }
+}
