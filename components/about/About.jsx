@@ -15,18 +15,19 @@ const About = () => {
         </div>
       </div>
 
-      <section className="flex gap-6 justify-center items-center flex-wrap">
+      <section className="flex gap-6 justify-center items-center flex-wrap md:flex-nowrap">
         {/* card one */}
         <div className="flex flex-col-reverse md:flex-col w-[98%] md:w-[100%] ">
-          <div className=" w-full md:w-[300px]">
-            <h1 className="title_text font-semibold text-xl underline md:text-5xl ">
+          <div className=" w-full md:w-[300px]  ">
+            <h1 className="title_text font-semibold text-xl underline md:text-5xl mt-3 md:mt-0 ">
               OUR VISION
             </h1>
+            <p className="w-full md:w-[450px] text-[#ff931e] text-[16px] font-medium  mt-2 md:mt-5 md-[24px]">
+              To create Prosperity for Brands through Branding & Marketing and
+              move businesses to a unicorn status within a decade.
+            </p>
           </div>
-          <p className="w-full md:w-[450px] text-[#ff931e] text-[16px] font-medium mt-5 md-[24px]">
-            To create Prosperity for Brands through Branding & Marketing and
-            move businesses to a unicorn status within a decade.
-          </p>
+
           <div className="w-[100%] md:w-[430px] mt-7" data-aos="flip-left">
             <Image src={aboutImgOne} />
           </div>
@@ -46,7 +47,7 @@ const About = () => {
               OUR MISSION
             </h1>
           </div>
-          <div className="w-full md:w-[450px] text-[#ff931e] text-[16px] font-medium mt-5 md-[24px] ">
+          <div className="w-full md:w-[450px] text-[#ff931e] text-[16px] font-medium  md:mt-5 mt-2 md-[24px] ">
             <p className="font-bold span_class inline">BrandOn</p> is on the
             adventure of breaking templates and “by the books” type of branding
             by using research to create custom and data-based branding solutions
