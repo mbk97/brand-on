@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
 import vid from "../../public/brandon.mp4";
-import poster from "../../public/poster.png";
-import play from "../../public/icons/play.svg";
-import Image from "next/image";
-import { DefaultPlayer as Video } from "react-html5video";
-import "react-html5video/dist/styles.css";
 
 const BrandOnLabs = () => {
   return (
@@ -25,15 +20,15 @@ const BrandOnLabs = () => {
         </p>
       </div>
       <div className="flex items-center justify-center player-wrapper mt-10 ">
-        <Video
+        <video
           autoPlay
           muted
-          controls={["PlayPause", "Seek", "Time", "Volume", "Fullscreen"]}
+          controls
           className="h-[400px] md:w-[800px] w-[100%]"
-          onCanPlayThrough={() => {}}
+          // poster={}
         >
           <source src={vid} type="video/mp4" />
-        </Video>
+        </video>
       </div>
     </div>
   );
