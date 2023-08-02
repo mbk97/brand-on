@@ -52,7 +52,7 @@ const Header = () => {
             </Reveal>
 
             <div className="flex gap-3 mt-8">
-              <a href="mailto:hello@growwithbrandon@gmail.com">
+              <a href="mailto:hello@growwithbrandon.com">
                 <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] flex items-center justify-center w-[120px]">
                   MAIL US
                 </button>

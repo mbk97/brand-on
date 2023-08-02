@@ -39,12 +39,10 @@ const Footer = () => {
           </p>
 
           <div className="mt-4">
-            <a href="mailto:hello@growwithbrandon@gmail.com">
+            <a href="mailto:hello@growwithbrandon.com">
               <div className="flex gap-2 items-center mb-3">
                 <AiOutlineMail />
-                <p className="footer-sub-text">
-                  hello@growwithbrandon@gmail.com
-                </p>
+                <p className="footer-sub-text">hello@growwithbrandon.com</p>
               </div>
             </a>
 

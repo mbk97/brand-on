@@ -10,3 +10,15 @@
     width: 100%;
   }
 }
+
+.player {
+  /* position: relative; */
+  width: 900px;
+  height: 500px;
+}
+
+@media (max-width: 400px) {
+  .player {
+    height: 200px;
+  }
+}

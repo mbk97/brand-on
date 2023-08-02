@@ -50,7 +50,7 @@ const Services = () => {
       <div className="flex justify-between flex-wrap gap-6">
         <div className="mb-[20px] md:mb-[40px] service_bg p-3 ">
           <div data-aos="zoom-out-up">
-            <h1 className="text-[#000000] font-semibold  text-[20px] md:text-[40px]">
+            <h1 className="text-[#000000] font-semibold title_text  text-[20px] md:text-[40px]">
               -OUR SERVICES
             </h1>
           </div>

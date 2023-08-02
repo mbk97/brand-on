@@ -29,14 +29,14 @@ export const menuItems = [
   //   text: "BLOG",
   //   path: "blog",
   // },
-  // {
-  //   id: 6,
-  //   text: "BRANDON LABS",
-  //   path: "labs",
-  // },
   {
-    id: 7,
-    text: "TESTIMONIALS",
-    path: "testimonials",
+    id: 6,
+    text: "BRANDON LABS",
+    path: "labs",
   },
+  // {
+  //   id: 7,
+  //   text: "TESTIMONIALS",
+  //   path: "testimonials",
+  // },
 ];

@@ -43,9 +43,11 @@ const Navbar = ({ showMobileNav, handleShowMobileNav }) => {
         </div>
       </div>
       <div className="btn_wrapper">
-        <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] hidden lg:flex items-center justify-center mt-3">
-          GROW WITH BRANDON
-        </button>
+        <a href="mailto:hello@growwithbrandon.com">
+          <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] hidden lg:flex items-center justify-center mt-3">
+            GROW WITH BRANDON
+          </button>
+        </a>
         <AiOutlineMenu
           onClick={handleShowMobileNav}
           className="cursor-pointer mt-4 lg:hidden"

@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import vid from "../../public/brandon.mp4";
+import poster from "../../public/poster.png";
+import play from "../../public/icons/play.svg";
+import Image from "next/image";
+import { DefaultPlayer as Video } from "react-html5video";
+import "react-html5video/dist/styles.css";
 
 const BrandOnLabs = () => {
   return (
     <div
-      className="bg-[#181818] h-auto text-[#ffffff]  px-6 md:px-12 py-12"
+      className="bg-[#181818] h-auto md:h-[800px] text-[#ffffff]  px-6 md:px-12 py-12"
       id="labs"
     >
       <div className="flex justify-between flex-wrap gap-3 md:gap-6">
@@ -19,13 +24,16 @@ const BrandOnLabs = () => {
           cook
         </p>
       </div>
-      <div className="flex items-center justify-center">
-        <video
-          controls
-          className="md:w-[500px] w-full h-[350px] mt-7 bg-[#514D42]"
+      <div className="flex items-center justify-center player-wrapper mt-10 ">
+        <Video
+          autoPlay
+          muted
+          controls={["PlayPause", "Seek", "Time", "Volume", "Fullscreen"]}
+          className="h-[400px] md:w-[800px] w-[100%]"
+          onCanPlayThrough={() => {}}
         >
-          <source type="video/mp4" src={vid} poster="../../public/robots.png" />
-        </video>
+          <source src={vid} type="video/mp4" />
+        </Video>
       </div>
     </div>
   );

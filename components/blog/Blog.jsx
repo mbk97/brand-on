@@ -80,9 +80,9 @@ const Blog = () => {
                   <p className="text-[18px] font-semibold w-[100%]">
                     {item.title}
                   </p>
-                  {/* <p className="text-[#6B6B6B] w-[100%] text-[16px]">
+                  <p className="text-[#6B6B6B] w-[100%] text-[16px]">
                     {item.description}
-                  </p> */}
+                  </p>
                   <p className="text-[#6B6B6B] text-[16px]">{item.date}</p>
                   <a
                     href={cardData.link}

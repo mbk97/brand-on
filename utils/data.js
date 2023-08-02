@@ -11,6 +11,7 @@ import blogOneImg from "../public/blogImages/blog-1.jpg";
 import blogTwoImg from "../public/blogImages/blog-2.jpg";
 import blogThreeImg from "../public/blogImages/blog-3.jpg";
 import blogFourImg from "../public/blogImages/blog-4.jpg";
+import amazonImg from "../public/amazon-blog.jpg";
 
 export const links = [
   {
@@ -43,16 +44,16 @@ export const links = [
   //   text: "PRICING",
   //   path: "pricing",
   // },
-  {
-    id: 6,
-    text: "TESTIMONIALS",
-    path: "testimonials",
-  },
   // {
-  //   id: 16,
-  //   text: "BRANDON LABS",
-  //   path: "labs",
+  //   id: 6,
+  //   text: "TESTIMONIALS",
+  //   path: "testimonials",
   // },
+  {
+    id: 16,
+    text: "BRANDON LABS",
+    path: "labs",
+  },
 ];
 
 export const testimonialData = [
@@ -176,32 +177,31 @@ export const servicesData = [
 export const blogData = [
   {
     id: 1,
-    title:
-      "Using research and data to design and implement branding and marketing solutions",
+    title: "How Research and Testing will save your Brand from Losses",
     description:
-      "At Brandon, Market research and data analysis is at the core of our operations and business. We have discovered you can never go wrong...",
-    date: "May 30, 2023",
+      "A major element of a solid foundation for your branding and marketing strategy is a proper research and testing...",
+    date: "May 24, 2023",
     tag: "MARKETING",
-    link: "https://m.facebook.com/story.php?story_fbid=pfbid0iHNc5KXD1i6woqQtEgwpFjPW59Bwx4dDCvpeX5Bz9SsCmDQpKDeVvWckAGihXbLhl&id=100083176209922&mibextid=Nif5oz",
-    image: blogOneImg,
+    link: "https://www.instagram.com/p/CsngvNXMCe4/?igshid=MzRlODBiNWFlZA==",
+    image: blogFourImg,
   },
   {
     id: 2,
-    title:
-      "Unlocking Marketing Success: Balancing Automation with People and Strategy",
+    title: "Boost your sales like Amazon Prime",
     description:
-      "Automation is an added advantage to make marketing easier but having the right people and strategy at the heart of your marketing... ",
-    date: "April 27, 2023 ",
-    image: blogTwoImg,
-    link: "https://twitter.com/_BrandOnteam/status/1683393653719302144?t=AivI5aUWuZm8PmR5QFAr1A&s=19",
+      "Automation is an added advantage to make marketing easier but having the right people and strategy...",
+    date: "May 30, 2023 ",
+    image: amazonImg,
+    link: "https://www.instagram.com/p/Cs3T8_7MYxD/?igshid=MzRlODBiNWFlZA==",
   },
   {
     id: 3,
-    title: "PUT PEOPLE NOT AUTOMATION AT THE CORE OF YOUR MARKETING",
-    description: " ",
-    date: "May 27, 2023",
-    image: blogFourImg,
-    link: "https://www.linkedin.com/posts/growwithbrandon_marketing-branding-brandon-activity-7089160485236875264-3SRT/?utm_source=share&utm_medium=member_android",
+    title: "Put people not Automation at the core of your marketing",
+    description:
+      "At BrandOn, Market research and data analysis is at the core of our operations and business. We have discovered...  ",
+    date: "May 30, 2023",
+    image: blogOneImg,
+    link: "https://www.instagram.com/p/CvErmkhsW30/?igshid=MzRlODBiNWFlZA==",
   },
   // {
   //   id: 4,
