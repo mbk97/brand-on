@@ -4,7 +4,6 @@ import Image from "next/image";
 import logo from "../../public/icons/logo.svg";
 import smallLogoText from "../../public/icons/smallLogoText.svg";
 import BigBrandText from "../../public/icons/bigBrandText.svg";
-import { BiToggleLeft } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { menuItems } from "./data";
 import "./style.css";
