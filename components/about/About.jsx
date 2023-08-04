@@ -28,7 +28,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="w-[100%] md:w-[430px] mt-7" data-aos="flip-left">
+          <div className="w-[100%] md:w-[430px] mt-7 mb-8" data-aos="flip-left">
             <Image src={aboutImgOne} />
           </div>
         </div>
