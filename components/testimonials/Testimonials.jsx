@@ -61,7 +61,7 @@ const Testimonials = () => {
             return (
               <div
                 key={item.id}
-                className="h-[370px] md:h-[300px] border w-[350px] border-[#514D42] flex items-center md:p-12 p-4 mr-5"
+                className="h-[300]px md:h-[300px] border w-[350px] border-[#514D42] flex items-center md:p-12 p-4 mr-5"
               >
                 <div>
                   <Image src={quoteImg} alt="quotes" />

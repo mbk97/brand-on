@@ -70,7 +70,7 @@ const Services = () => {
               >
                 <Image src={item.image} alt={item.title} className="card_img" />
                 <div className="text-center p-2 md:p-4">
-                  <p className="title_text mb-2 text-[14px] md:text-[14px] text-[#ff931e] md:font-semibold ">
+                  <p className="title_text pt-3 mb-2 text-[14px] md:text-[14px] text-[#ff931e] md:font-semibold ">
                     {item.title}
                   </p>
                   <p className="desc_text md:font-medium text-[12px] md:text-[14px] ">

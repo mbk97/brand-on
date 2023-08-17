@@ -33,9 +33,14 @@ const Navbar = ({ showMobileNav, handleShowMobileNav }) => {
             })}
           </ul>
           <div className="lg:hidden flex justify-center items-center mt-9">
-            <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] flex items-center justify-center ">
-              GROW WITH BRANDON
-            </button>
+            <a
+              href="https://share-eu1.hsforms.com/1tjrYAyA7Q6O9HIGCVeN9Zw2d84xh"
+              target="_blank"
+            >
+              <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] flex items-center justify-center ">
+                GROW WITH BRANDON
+              </button>
+            </a>
           </div>
           <div className="absolute top-5 right-3 cursor-pointer lg:hidden">
             <AiOutlineClose size={30} onClick={handleShowMobileNav} />
@@ -43,7 +48,10 @@ const Navbar = ({ showMobileNav, handleShowMobileNav }) => {
         </div>
       </div>
       <div className="btn_wrapper">
-        <a href="mailto:hello@growwithbrandon.com">
+        <a
+          href="https://share-eu1.hsforms.com/1tjrYAyA7Q6O9HIGCVeN9Zw2d84xh"
+          target="_blank"
+        >
           <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] hidden lg:flex items-center justify-center mt-3">
             GROW WITH BRANDON
           </button>
