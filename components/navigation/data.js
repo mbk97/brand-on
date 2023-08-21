@@ -7,7 +7,7 @@ export const menuItems = [
   {
     id: 10,
     text: "ABOUT US",
-    path: "abou",
+    path: "about",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const menuItems = [
   {
     id: 3,
     text: "WORKS",
-    path: "works",
+    path: "portfolio",
   },
   // {
   //   id: 4,
