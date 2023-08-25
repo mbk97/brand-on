@@ -14,13 +14,23 @@ const Footer = () => {
   return (
     // change footer height back to 600px
     <div className="text-[white]  h-[auto] md:px-12 md:py-20 px-5 pt-14 ">
-      <div className="mb-10">
+      <div className="mb-10 flex justify-between items-center">
         <h1 className=" text-[#FF931E] big-text">
           LET&rsquo;S MAKE YOUR <br /> BRAND A{" "}
           <span className="text-[white]">MOVEMENT</span>
         </h1>
+
+        <a
+          href="https://share-eu1.hsforms.com/1tjrYAyA7Q6O9HIGCVeN9Zw2d84xh"
+          target="_blank"
+          className="hidden md:block"
+        >
+          <div className="bg-[#ffffff] cursor-pointer w-[108px] h-[108px] rounded-[50%] flex justify-center items-center mr-10">
+            <p className="text-[#000000] font-medium">Contact us</p>
+          </div>
+        </a>
       </div>
-      <div className="flex justify-between flex-wrap md:gap-7 gap-5">
+      <div className="flex justify-between flex-wrap md:gap-7 gap-5 mt-20">
         <div className="hidden md:block">
           <Link to="home" smooth={true}>
             <Image
@@ -52,6 +62,17 @@ const Footer = () => {
                 <p className="footer-sub-text">+234 810 012 3456</p>
               </div>
             </a>
+
+            <div className="mt-5 block md:hidden">
+              <a
+                href="https://share-eu1.hsforms.com/1tjrYAyA7Q6O9HIGCVeN9Zw2d84xh"
+                target="_blank"
+              >
+                <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] flex items-center justify-center ">
+                  Contact us
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         {/* Contact wrapper */}
@@ -80,7 +101,7 @@ const Footer = () => {
         {/* social media wrapper */}
         <div>
           <p className="footer-header-text leading-5 text-[#ffffff] font-semibold">
-            Social Media
+            Digital Media
           </p>
           <div className="mt-4">
             {socialMediaLinks.map((item) => {

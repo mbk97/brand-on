@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "BrandOn",
-  description: " Branding and Marketing",
+  description: "Branding, SEO, Marketing",
 };
 
 export default function RootLayout({ children }) {
