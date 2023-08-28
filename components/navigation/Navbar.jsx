@@ -38,7 +38,7 @@ const Navbar = ({ showMobileNav, handleShowMobileNav }) => {
               target="_blank"
             >
               <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] flex items-center justify-center ">
-                GROW WITH BRANDON
+                TALK WITH BRANDON
               </button>
             </a>
           </div>
@@ -53,7 +53,7 @@ const Navbar = ({ showMobileNav, handleShowMobileNav }) => {
           target="_blank"
         >
           <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] hidden lg:flex items-center justify-center mt-3">
-            GROW WITH BRANDON
+            TALK WITH BRANDON
           </button>
         </a>
         <AiOutlineMenu

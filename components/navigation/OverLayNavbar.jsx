@@ -53,7 +53,7 @@ const OverLayNavbar = ({ handleClick }) => {
 
         <div>
           <p className="footer-header-text leading-5 text-[#ffffff] font-semibold">
-            Social Media
+            Digital Media
           </p>
           <div className="mt-4">
             {socialMediaLinks.map((item) => {

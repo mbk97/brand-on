@@ -1,11 +1,28 @@
 import { All, Brand, Social, Website } from "@/components/works/Index";
 import fitness from "../public/fitness.png";
-import consult from "../public/consult.png";
 import prime from "../public/prime.png";
+import consult from "../public/consult.png";
+import alyn from "../public/alyn.png";
+import boss from "../public/boss.png";
+import glrd from "../public/glrd.png";
+import CABANA from "../public/cabana.png";
 import robots from "../public/robots.png";
 import PricingBrand from "@/components/pricing/tabs/PricingBrand";
 import PricingSocial from "@/components/pricing/tabs/PricingSocial";
 import PricingWeb from "@/components/pricing/tabs/PricingWeb";
+
+export const aboutUsData = [
+  {
+    id: 1,
+    title: "ALL",
+    Component: All,
+  },
+  {
+    id: 2,
+    title: "BRAND IDENTITY",
+    Component: Brand,
+  },
+];
 
 export const worksTabData = [
   {
@@ -61,6 +78,16 @@ export const allContentData = [
     description:
       "Fitness Guru is modern, sophisticated, and exclusive fitness brand. ",
     image: fitness,
+    link: "",
+  },
+  {
+    id: 6,
+    title: "THE BOSS LEGS",
+    tagOne: "BRAND IDENTITY",
+    tagTwo: "FASHION & STYLE",
+    description: "A luxury shoe brand making brand.",
+    image: boss,
+    link: "",
   },
   {
     id: 2,
@@ -70,6 +97,7 @@ export const allContentData = [
     description:
       "TSO consult is a professional architecture company dedicated to delivering exceptional design solutions for their clients. ",
     image: consult,
+    link: "",
   },
   {
     id: 3,
@@ -79,6 +107,7 @@ export const allContentData = [
     description:
       "Facilitating development of technology talents with the right skills solve problems effectively and build sustainable solutions. ",
     image: robots,
+    link: "",
   },
   {
     id: 4,
@@ -88,29 +117,83 @@ export const allContentData = [
     description:
       "Healthcare Administrator:  Specialist Consultation, Surgery, Internal Medicine, Mental Health, O & G Orthopedic. ",
     image: prime,
+    link: "",
+  },
+  {
+    id: 5,
+    title: "ALYN HAIRS",
+    tagOne: "BRAND IDENTITY",
+    tagTwo: "STYLING",
+    description:
+      "Alyn Hairs is a modern, luxury & sophisticated, and exclusive Hair Styling Brand.",
+    image: alyn,
+    link: "",
+  },
+
+  {
+    id: 7,
+    title: "GLRD",
+    tagOne: "WEB DESIGN / WEB DEVELOPMENT",
+    tagTwo: "EDUCATION",
+    description:
+      "An Online Learning Platform that helps students solve their problems and provide guidelines for achieving their goals. ",
+    image: glrd,
+    link: "",
+  },
+  {
+    id: 8,
+    title: "CABANA CAPITALS",
+    tagOne: "SOCIAL MEDIA MANAGEMENT, SOCIAL MEDIA DESIGN",
+    tagTwo: "FINTECH",
+    description:
+      "A Fintech Company passionate about providing Forex literacy to citizens nationwide.",
+    image: CABANA,
+    link: "",
   },
 ];
 
 export const socialMediaData = [
   {
-    id: 4,
+    id: 1,
     title: "OH PRIME ",
     tagOne: "SOCIAL MEDIA MANAGEMENT, SOCIAL MEDIA DESIGN",
     tagTwo: "HEALTH",
     description:
       "Healthcare Administrator:  Specialist Consultation, Surgery, Internal Medicine, Mental Health, O & G Orthopedic. ",
     image: prime,
+    link: "",
+  },
+  {
+    id: 2,
+    title: "CABANA CAPITALS",
+    tagOne: "SOCIAL MEDIA MANAGEMENT, SOCIAL MEDIA DESIGN",
+    tagTwo: "FINTECH",
+    description:
+      "A Fintech Company passionate about providing Forex literacy to citizens nationwide.",
+    image: CABANA,
+    link: "",
   },
 ];
 export const websiteData = [
   {
-    id: 3,
+    id: 1,
     title: "ROBOTS",
     tagOne: "WEB DESIGN / WEB DEVELOPMENT",
     tagTwo: "TECHNOLOGY",
     description:
       "Facilitating development of technology talents with the right skills solve problems effectively and build sustainable solutions. ",
     image: robots,
+    link: "",
+  },
+  {
+    id: 2,
+    title: "GLRD",
+    tagOne: "WEB DESIGN / WEB DEVELOPMENT",
+    tagTwo: "EDUCATION",
+    description:
+      "An Online Learning Platform that helps students solve their problems and provide guidelines for achieving their goals. ",
+    image: glrd,
+    link: "",
   },
 ];
 export const brandIdentityData = [
@@ -131,6 +214,25 @@ export const brandIdentityData = [
     description:
       "TSO consult is a professional architecture company dedicated to delivering exceptional design solutions for their clients. ",
     image: consult,
+  },
+  {
+    id: 3,
+    title: "ALYN HAIRS",
+    tagOne: "BRAND IDENTITY",
+    tagTwo: "STYLING",
+    description:
+      "Alyn Hairs is a modern, luxury & sophisticated, and exclusive Hair Styling Brand.",
+    image: alyn,
+    link: "",
+  },
+  {
+    id: 4,
+    title: "THE BOSS LEGS",
+    tagOne: "BRAND IDENTITY",
+    tagTwo: "FASHION & STYLE",
+    description: "A luxury shoe brand making brand.",
+    image: boss,
+    link: "",
   },
 ];
 

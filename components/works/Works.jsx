@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { worksTabData } from "@/utils/tabData";
 import "./style.css";
-import Reveal from "../animation/Reveal";
 
 const Works = () => {
   const [activeTab, setActiveTab] = useState(1);

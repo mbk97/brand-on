@@ -59,25 +59,25 @@ export const links = [
 export const testimonialData = [
   {
     id: 1,
-    name: "Dotun",
-    text: "BRANDON really helped my problem, and I am very satisfied with the service!",
-    role: "CEO Google",
+    name: " Mr. Abiodun Oni",
+    text: "I am extremely thankful for your assistance in promoting our brand GEZA Luxury Apartment in Ibadan. Thank you for showing us to the world.",
+    role: "Managing Director- Geza Luxury Apartment",
     image: userImg,
   },
   {
     id: 2,
-    name: "James Willy",
-    text: "BRANDON really helped my problem, and I am very satisfied with the service!",
-    role: "CEO Facebook",
+    name: " Dr T. F Femi-Oyewole",
+    text: "We are happy to have engaged Brandon as our marketing consultant especially in our highly competitive ecosystem,their attention to detail,accountability and transparency has revived our visibility as a business",
+    role: "MD/CHIARMAN FORTICS LIFECARE LTD",
     image: userImg,
   },
-  {
-    id: 3,
-    name: "Kayode Bashorun",
-    text: "BRANDON really helped my problem, and I am very satisfied with the service!",
-    role: "CEO Brandon",
-    image: userImg,
-  },
+  // {
+  //   id: 3,
+  //   name: "Kayode Bashorun",
+  //   text: "BRANDON really helped my problem, and I am very satisfied with the service!",
+  //   role: "CEO Brandon",
+  //   image: userImg,
+  // },
 ];
 
 export const offerData = [

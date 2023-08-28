@@ -10,3 +10,13 @@
     width: 100%;
   }
 }
+
+.active_tab {
+  background: #ff931e;
+  width: 158px;
+  height: 54px;
+  cursor: pointer;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

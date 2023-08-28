@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
-import aboutImgOne from "../../public/about-img-1.png";
-import aboutImgTwo from "../../public/about-img-2.png";
-import Image from "next/image";
+import Mission from "./Mission";
+import Vision from "./Vision";
+import MobileVision from "./mobileComponent/MobileVision";
+import MobileMission from "./mobileComponent/MobileMission";
 
 const About = () => {
+  const [tabIndex, setTabIndex] = useState(0);
+
+  const handleNextTab = () => {
+    if (tabIndex === 0) {
+      setTabIndex(1);
+    } else {
+      return;
+    }
+  };
+
+  const handlePrevTab = () => {
+    if (tabIndex === 1) {
+      setTabIndex(0);
+    } else {
+      return;
+    }
+  };
+
   return (
     <div id="about" className="h-auto flex-col pt-12 pb-20 md:px-14 px-6">
       <div className="mb-[20px] md:mb-[40px] about_bg p-3 pl-10 ">
@@ -16,45 +35,36 @@ const About = () => {
       </div>
 
       <section className="flex gap-6 justify-center items-center flex-wrap md:flex-nowrap">
-        {/* card one */}
-        <div className="flex flex-col-reverse md:flex-col w-[98%] md:w-[100%] ">
-          <div className="w-[100%] md:w-[300px]  ">
-            <h1 className="title_text font-semibold text-xl underline md:text-5xl mt-3 md:mt-0 ">
-              OUR VISION
-            </h1>
-            <p className="w-[100%] md:w-[450px] text-[#ff931e] text-[16px] font-medium  mt-2 md:mt-5 md-[24px]">
-              To create Prosperity for Brands through Branding & Marketing and
-              move businesses to a unicorn status within a decade.
-            </p>
-          </div>
-
-          <div className="w-[100%] md:w-[430px] mt-7 mb-8" data-aos="flip-left">
-            <Image src={aboutImgOne} />
-          </div>
+        <div className="hidden md:block">
+          {tabIndex === 0 ? (
+            <Mission
+              handleNextTab={handleNextTab}
+              handlePrevTab={handlePrevTab}
+              tabIndex={tabIndex}
+            />
+          ) : (
+            <Vision
+              handleNextTab={handleNextTab}
+              handlePrevTab={handlePrevTab}
+              tabIndex={tabIndex}
+            />
+          )}
         </div>
-        {/* card one */}
-
-        {/* card two */}
-        <div className="md-[100%] w-[98%]">
-          <div
-            className="w-[100%] md:w-[430px] mt-4 object-contain"
-            data-aos="flip-right"
-          >
-            <Image src={aboutImgTwo} />
-          </div>
-          <div className="w-full md:w-[370px] mt-7">
-            <h1 className="title_text font-semibold text-xl underline md:text-5xl ">
-              OUR MISSION
-            </h1>
-          </div>
-          <div className="w-[100%] md:w-[450px] text-[#ff931e] text-[16px] font-medium  md:mt-5 mt-2 md-[24px] ">
-            <p className="font-bold span_class inline">BrandOn</p> is on the
-            adventure of breaking templates and “by the books” type of branding
-            by using research to create custom and data-based branding solutions
-            specific to individual brands.
-          </div>
+        <div className="block md:hidden">
+          {tabIndex === 0 ? (
+            <MobileMission
+              handleNextTab={handleNextTab}
+              handlePrevTab={handlePrevTab}
+              tabIndex={tabIndex}
+            />
+          ) : (
+            <MobileVision
+              handleNextTab={handleNextTab}
+              handlePrevTab={handlePrevTab}
+              tabIndex={tabIndex}
+            />
+          )}
         </div>
-        {/* card two */}
       </section>
     </div>
   );
