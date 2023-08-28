@@ -11,6 +11,19 @@ import PricingBrand from "@/components/pricing/tabs/PricingBrand";
 import PricingSocial from "@/components/pricing/tabs/PricingSocial";
 import PricingWeb from "@/components/pricing/tabs/PricingWeb";
 
+export const aboutUsData = [
+  {
+    id: 1,
+    title: "ALL",
+    Component: All,
+  },
+  {
+    id: 2,
+    title: "BRAND IDENTITY",
+    Component: Brand,
+  },
+];
+
 export const worksTabData = [
   {
     id: 1,

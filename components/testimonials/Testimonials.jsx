@@ -11,7 +11,7 @@ const Testimonials = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 2.5,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -61,7 +61,7 @@ const Testimonials = () => {
             return (
               <div
                 key={item.id}
-                className="h-[300]px md:h-[300px] border w-[350px] border-[#514D42] flex items-center md:p-12 p-4 mr-5"
+                className="h-[500]px md:h-[300px] border w-[100px] border-[#514D42] flex items-center md:p-12 p-2 mr-5"
               >
                 <div>
                   <Image src={quoteImg} alt="quotes" />
