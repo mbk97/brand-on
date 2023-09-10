@@ -21,8 +21,7 @@ const BrandOnLabs = () => {
       </div>
       <div className="flex items-center justify-center player-wrapper mt-10 ">
         <video
-          autoPlay
-          muted
+          autoPlay={false}
           controls
           className="h-[400px] md:w-[800px] w-[100%]"
           // poster={}
