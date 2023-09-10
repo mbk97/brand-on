@@ -26,11 +26,12 @@ export const All = () => {
             <div key={item.id} className="h-[650px] md:h-[700px]">
               <Image
                 src={item.image}
+                loading="lazy"
                 alt="hello"
                 style={{
                   objectPosition: "center",
                 }}
-                className="md:w-[500px] md:h-[400px] w:full h-[300px]"
+                className="md:w-[500px] md:h-[400px] w:full h-[300px] all-works-image"
               />
               <div className="mt-5 pl-6">
                 <p className="text-[#ff931e]  font-semibold text-2xl">
@@ -41,12 +42,6 @@ export const All = () => {
                 <ul className="flex items-center gap-4">
                   <li className=" list-disc marker:text-[#ff931e] text-[14px]">
                     {item.tagTwo}
-                  </li>
-
-                  <li>
-                    <a href="" className="text-[#ff931e] decoration-0">
-                      view more
-                    </a>
                   </li>
                 </ul>
               </div>
@@ -85,6 +80,7 @@ export const Brand = () => {
           <div key={item.id} className="h-[650px] md:h-[700px]">
             <Image
               src={item.image}
+              loading="lazy"
               alt="hello"
               style={{
                 objectPosition: "center",
@@ -119,6 +115,7 @@ export const Social = () => {
           <div key={item.id} className="h-[650px] md:h-[700px]">
             <Image
               src={item.image}
+              loading="lazy"
               alt="hello"
               style={{
                 objectPosition: "center",
@@ -153,6 +150,7 @@ export const Website = () => {
           <div key={item.id} className="h-[650px] md:h-[700px]">
             <Image
               src={item.image}
+              loading="lazy"
               alt="hello"
               style={{
                 objectPosition: "center",

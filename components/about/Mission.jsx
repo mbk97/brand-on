@@ -34,12 +34,8 @@ const Mission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
         </div>
         <div className="bg-[#F9F9F9] md:w-[647px] w-full">
           <div className="text-[#FF931E] p-4">
-            <p className="text-[#FF931E] font-semibold inline-block mr-2">
-              BrandOn
-            </p>
-            is on the adventure of breaking templates and “by the books” type of
-            branding by using research to create custom and data-based branding
-            solutions specific to individual brands.
+            To create Prosperity for Brands through Branding & Marketing and
+            move businesses to a unicorn status within a decade
           </div>
         </div>
       </section>

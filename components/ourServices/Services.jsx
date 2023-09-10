@@ -68,7 +68,12 @@ const Services = () => {
                 key={item.id}
                 className="w-[18.75rem] h-[28.125rem] bg-[#272727] service_card"
               >
-                <Image src={item.image} alt={item.title} className="card_img" />
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  className="card_img"
+                  loading="lazy"
+                />
                 <div className="text-center p-2 md:p-4">
                   <p className="title_text pt-3 mb-2 text-[14px] md:text-[14px] text-[#ff931e] md:font-semibold ">
                     {item.title}
