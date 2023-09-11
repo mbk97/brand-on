@@ -38,23 +38,19 @@ const Mission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
           >
             Our Vision
           </button>
-          {/* <p className="cursor-pointer">Our Values</p> */}
         </div>
         <div className="bg-[#F9F9F9] md:w-[647px] w-full">
-          <div className="text-[#FF931E] p-4">
+          <p className="text-[#FF931E] p-4">
             To create Prosperity for Brands through Branding & Marketing and
             move businesses to a unicorn status within a decade
-          </div>
+          </p>
         </div>
       </section>
-      <section>
+      <div>
         <div className="w-[100%] md:w-[430px] mb-8" data-aos="flip-left">
           <Image src={aboutImgOne} />
         </div>
-        {/* <div className="w-[100%] md:w-[430px] mt-7 mb-8" data-aos="flip-left">
-          <Image src={aboutImgOne} />
-        </div> */}
-      </section>
+      </div>
     </div>
   );
 };

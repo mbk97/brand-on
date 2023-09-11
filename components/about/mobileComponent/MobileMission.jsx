@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../../public/vision.png";
+import about from "../../../public/mission.png";
 import Image from "next/image";
 const MobileMission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
   return (
@@ -17,7 +17,6 @@ const MobileMission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
         >
           Our Vision
         </button>
-        {/* <p className="cursor-pointer">Our Values</p> */}
       </div>
       <section>
         <div>
