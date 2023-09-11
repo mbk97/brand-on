@@ -28,18 +28,23 @@ const MobileMission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
             We are the Einsteins, the non-conformists, the adventurers that
             don’t think in and out of the box but go constantly on the search to
             break boxes and templates that businesses try to fit in so we can
-            bring them to their land of gems and treasures.
+            bring them to their land of gems and treasures.{" "}
+            <a
+              href="/about-pdf/aboutUs.pdf"
+              download={true}
+              className="font-bold underline"
+            >
+              Download our full profile...
+            </a>
           </p>
         </div>
 
         <div className="bg-[#F9F9F9] md:w-[647px] w-full">
           <div className="text-[#FF931E] p-4">
-            <p className="text-[#FF931E] font-semibold inline-block mr-2">
-              BrandOn
+            <p className="text-[#FF931E]  mr-2">
+              To create Prosperity for Brands through Branding & Marketing and
+              move businesses to a unicorn status within a decade
             </p>
-            is on the adventure of breaking templates and “by the books” type of
-            branding by using research to create custom and data-based branding
-            solutions specific to individual brands.
           </div>
         </div>
       </section>
