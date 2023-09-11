@@ -14,7 +14,14 @@ const Vision = ({ handleNextTab, tabIndex, handlePrevTab }) => {
             We are the Einsteins, the non-conformists, the adventurers that
             don’t think in and out of the box but go constantly on the search to
             break boxes and templates that businesses try to fit in so we can
-            bring them to their land of gems and treasures.
+            bring them to their land of gems and treasures.{" "}
+            <a
+              href="/about-pdf/aboutUs.pdf"
+              download={true}
+              className="font-bold underline"
+            >
+              Download our full profile...
+            </a>
           </p>
         </div>
         <div className="border-t border-[#FF931E] flex w:full md:w-[550px]">

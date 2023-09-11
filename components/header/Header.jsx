@@ -57,7 +57,7 @@ const Header = () => {
                   MAIL US
                 </button>
               </a>
-              <a href="tel:+234 810 012 3456">
+              <a href="tel:+234 805 261 6854">
                 <button className="bg-transparent border border-solid p-4 text-[12px] font-semibold h-[39px] flex items-center justify-center w-[120px]">
                   CALL US
                 </button>
