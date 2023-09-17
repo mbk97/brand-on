@@ -29,7 +29,7 @@ const MobileMission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
             break boxes and templates that businesses try to fit in so we can
             bring them to their land of gems and treasures.{" "}
             <a
-              href="/about-pdf/aboutUs.pdf"
+              href="/about-pdf/BrandOn Agency.pdf"
               download={true}
               className="font-bold underline"
             >
@@ -39,11 +39,13 @@ const MobileMission = ({ handleNextTab, tabIndex, handlePrevTab }) => {
         </div>
 
         <div className="bg-[#F9F9F9] md:w-[647px] w-full">
-          <div className="text-[#FF931E] p-4">
-            <p className="text-[#FF931E]  mr-2">
-              To create Prosperity for Brands through Branding & Marketing and
-              move businesses to a unicorn status within a decade
+          <div className="text-[#FF931E] p-4 text-[18px]">
+            <p className="text-[#FF931E] font-semibold inline-block mr-2">
+              BrandOn
             </p>
+            is on the adventure of breaking templates and “by the books” type of
+            branding by using research to create custom and data-based branding
+            solutions specific to individual brands.
           </div>
         </div>
       </section>
