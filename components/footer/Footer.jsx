@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
             </a>
 
-            <a href="tel:+234 810 012 3456">
+            <a href="tel:+234 805 261 6854">
               <div className="flex gap-2 items-center">
                 <BsTelephoneInbound />
                 <p className="footer-sub-text">+234 805 261 6854</p>
